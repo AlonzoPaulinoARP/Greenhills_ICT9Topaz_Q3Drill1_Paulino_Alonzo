@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q3 Drill 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-image: url(https://img.freepik.com/free-vector/gradient-numerology-background_23-2150140099.jpg?semt=ais_hybrid&w=740&q=80);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; color: #ffffff; font-size: 100px;">Basic Calculator</h1>
+    <form style="text-align: center; ">
+        <input type="number" id="num1" placeholder="Enter the first number"><br><br>
+        <input type="number" id="num2" placeholder="Enter the second number"><br><br>
+        <input type="button" onclick="add()" value="Add" style="color: #ff0000;">
+        <input type="button" onclick="subtract()" value="Subtract" style="color: #baba01;">
+        <input type="button" onclick="multiply()" value="Multiply" style="color: #017c1e;">
+        <input type="button" onclick="divide()" value="Divide" style="color: #0000ff;">
+        <input type="button" onclick="square()" value="Square" style="color: #9900ff;">
+    </form>
+    <div id="output" style="color: brown; font-size: 30px;"></div>
+    <script src="main.js"></script>
+</body>
+</html>
